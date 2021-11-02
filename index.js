@@ -19,6 +19,10 @@ Do the following:
 
    HINT: no function required
 */
+const votingAge = 18;
+if (votingAge >= 18) {
+  console.log(true);
+}
 
 /*
 Task 1b - Values
@@ -30,7 +34,12 @@ Do the following:
 
    HINT: no function required
 */
-
+let firstVar = 5;
+let secondVar = 6;
+if (secondVar === 6) {
+  firstVar = 7;
+}
+console.log(firstVar);
 /*
 Task 1c - Convert Strings to Numbers
 
@@ -41,7 +50,8 @@ Do the following:
 
    HINT: look up the Number method
 */
-
+let myStr = "1999";
+console.log(Number(myStr));
 /*
 Task 1d - Multiply
  
@@ -51,8 +61,9 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/) {
+function multiply(a, b) {
   /*add your code here*/
+  return a * b;
 }
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -65,8 +76,9 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/) {
+function dogYears(age) {
   /*add your code here*/
+  return age * 7;
 }
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -198,6 +210,7 @@ Using the grade function below do the following:
 
 function grade(/*Your Code here */) {
   /*Your Code here */
+  //for loop
 }
 
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
